@@ -87,26 +87,36 @@
     display: flex;
     text-decoration: line-through;
 }
-@media only screen and (max-width: 439px) {
-    .toggle{
+/* @media only screen and (max-width: 439px) {
+    .div-left{
+        right: -80;
+    }
+}
+@media only screen and (max-width: 435px) {
+    .div-left{
          left: 310px;
     }
 }
 @media only screen and (max-width: 400px) {
-    .toggle{
+    .div-left{
          left: 280px;
     }
 }
 @media only screen and (max-width: 373px) {
-    .toggle{
+    .div-left{
          left: 250px;
     }
 }
 @media only screen and (max-width: 342px) {
-    .toggle{
+    .div-left{
          left: 215px;
     }
 }
+@media only screen and (max-width: 342px) {
+    .div-left{
+         left: 215px;
+    }
+} */
 .active{
     display: none;
 }

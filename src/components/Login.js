@@ -57,8 +57,9 @@ const Login = () => {
                 }}
               />
             </label>
-            <label className=" flex flex-col text-xl relative">
+            <label className=" flex flex-col text-xl">
               Password:{" "}
+              <div className="relative w-full max-w-[380px]">
               <input
                 type={showPassword ? "text" : "password"}
                 className=" border rounded-md w-full max-w-[380px] p-2 border-blue-500"
@@ -68,8 +69,9 @@ const Login = () => {
                   setPassword(e.target.value);
                 }}
               />
-              <div onClick={togglePasword} className={`toggle absolute top-[35px] left-[345px] right-0 bottom-0 w-[10px] h-[10px] cursor-pointer ${showPassword? "hide" : "imgcon"}`}>
+              <div onClick={togglePasword} className={`div-left absolute top-[7px] right-[20px] bottom-0 w-[10px] h-[10px] cursor-pointer ${showPassword? "hide" : "imgcon"}`}>
               <i class="fa-regular fa-eye"></i>
+              </div>
               </div>
             </label>
             <p className="text-center text-[18px] text-red-500">{error}</p>
